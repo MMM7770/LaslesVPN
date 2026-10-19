@@ -1,0 +1,67 @@
+.footer {
+  background-color: #ffffff;
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-color: #f3f3f3;
+}
+.footer-one {
+  display: flex;
+  gap: 168px;
+}
+.footer-one h2 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #0b132a;
+}
+.footer-one p {
+  max-width: 340px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+.footer-one ul {
+  gap: 30px;
+}
+.footer-one a {
+  max-width: 74px;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #4f5665;
+}
+.vpn {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+
+  color: #afb5c0;
+}
+.loggo {
+  padding-bottom: 30px;
+}
+.left-link {
+  padding-top: 30px;
+  display: flex;
+}
+
+@media {
+  .footer-one {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
